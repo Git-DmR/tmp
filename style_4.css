@@ -320,3 +320,56 @@ label p {
   height: 450px;
   float: right;
 }
+
+.video {
+  max-width: 1920px;
+  min-height: 1004px;
+  margin-bottom: 28px;
+  padding-top: 101px;
+  padding-right: 13px;
+  background-color: #eeeff1;
+}
+
+.video-title {
+  max-width: 403px;
+  height: 27px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-left: 90px;
+}
+
+.video-title h2 {
+  float: left;
+  text-align: center;
+  font-family: "Roboto-Regular";
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.video-text {
+  max-width: 600px;
+  height: 26px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-left: 37px;
+}
+
+.video-text pre {
+  color: #727272;
+  float: left;
+  font-family: "Roboto-Regular";
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26.25px;
+}
+
+.video-content {
+  margin: 0 auto;
+  width: 1110px;
+  height: 600px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./src/img/video-cover.svg);
+}
