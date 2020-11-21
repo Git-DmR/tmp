@@ -13,14 +13,19 @@
   src: url(./src/fonts/Roboto-Regular.ttf);
 }
 
+body {
+  margin: 0 auto;
+}
+
 section {
   margin: 0 auto;
   max-width: 1920px;
+  min-width: 640px;
   height: auto;
 }
 
 .first-screen {
-  height: 693px;
+  min-height: 693px;
   padding-top: 47px;
   background: #e5e5e5;
 }
@@ -28,7 +33,7 @@ section {
 header {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1116px;
+  max-width: 1130px;
   min-height: 193px;
   clear: both;
 }
@@ -36,6 +41,7 @@ header {
 .logo {
   width: 96px;
   height: 60px;
+  margin-right: 398px;
   color: #34547a;
   float: left;
   font-family: "Revalia-Regular";
@@ -48,7 +54,7 @@ header {
 
 nav {
   max-width: 622px;
-  float: right;
+  float: left;
   padding-top: 22px;
 }
 
@@ -102,10 +108,17 @@ nav ul li a {
   text-decoration: none;
 }
 
+.first-screen-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1130px;
+}
+
 .first-screen-image {
-  width: 50%;
+  width: auto;
   padding-top: 31px;
-  padding-right: 116px;
+  padding-left: 85px;
+  margin-right: 130px;
   float: left;
 }
 
@@ -114,16 +127,11 @@ nav ul li a {
   float: right;
 }
 
-.first-screen-content {
-  width: auto;
-  padding-left: 15px;
-  float: left;
-}
-
 .first-screen-title {
-  width: 541px;
+  width: 558px;
   height: 45px;
   margin-bottom: 60px;
+  float: left;
   font-family: "Roboto-Regular";
   font-size: 48px;
   font-weight: 500;
@@ -132,9 +140,10 @@ nav ul li a {
 }
 
 .first-screen-text {
-  width: 540px;
+  width: 558px;
   height: 67px;
   margin-bottom: 70px;
+  float: left;
 }
 
 .first-screen-text pre {
@@ -168,8 +177,10 @@ nav ul li a {
   line-height: 26.25px;
 }
 
+/*                                              <section class="about-me"> */
+
 .about-me {
-  height: 616px;
+  min-height: 616px;
   background-color: #ffffff;
   padding-top: 119px;
 }
@@ -179,9 +190,11 @@ nav ul li a {
   height: 27px;
   margin: 0 auto;
   margin-bottom: 50px;
+  padding-left: 130px;
 }
 
 .about-me-title h2 {
+  float: left;
   text-align: center;
   font-family: "Roboto-Regular";
   font-weight: 500px;
@@ -191,15 +204,16 @@ nav ul li a {
 }
 
 .about-me-text {
-  max-width: 540px;
+  max-width: 600px;
   height: 70px;
-  padding-top: 1px;
   margin: 0 auto;
   margin-bottom: 100px;
+  padding-left: 27px;
 }
 
 .about-me-text pre {
   color: #727272;
+  float: left;
   font-family: "Roboto-Regular";
   text-align: center;
   font-weight: 400;
@@ -209,15 +223,100 @@ nav ul li a {
 }
 
 .numbers {
+  margin: 0 auto;
+  max-width: 1920px;
   min-height: 250px;
   background-color: #34547a;
-  padding: 100px 375px 100px 405px;
+  padding: 100px 375px 100px 360px;
   clear: both;
+}
+
+.numbers-array {
+  margin: 0 auto;
+  height: 50px;
+  padding-left: 30px;
+  clear: both;
+}
+
+.numbers-left-block {
+  width: 570px;
+  height: 50px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.numbers-right-block {
+  width: 570px;
+  height: 50px;
+  float: right;
 }
 
 .numbers-item {
   width: 141px;
   height: 50px;
   margin-right: 49px;
+  float: right;
+}
+
+.skills {
+  margin: 0 auto;
+  padding: 102px 383px 0px 360px;
+  max-width: 1920px;
+  min-height: 653px;
+  background-color: #e5e5e5;
+}
+
+.skills-content {
+  margin: 0 auto;
+  height: 450px;
+  padding-left: 11px;
+  clear: both;
+}
+
+.skills-content-description {
+  width: 555px;
+  height: 450px;
+  padding-top: 103px;
+  float: left;
+}
+
+.skills-content-title {
+  width: 403px;
+  height: 40px;
+  margin-bottom: 35px;
+}
+
+.skills-content-title h2 {
+  font-family: "Roboto-Regular";
+  font-weight: 500px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.status-bar {
+  margin-bottom: 25px;
+}
+
+label p {
+  color: #727272;
+  font-family: "Roboto-Regular";
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26.25px;
+}
+
+#bar {
+  width: 445px;
+  height: 10px;
+  margin-bottom: -4px;
+  background-image: #052950;
+  cursor: pointer;
+}
+
+.skills-content-foto {
+  width: 555px;
+  height: 450px;
   float: right;
 }
