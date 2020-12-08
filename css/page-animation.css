@@ -1,0 +1,67 @@
+/* <!== second-page ========================================================= >  */
+.second-page_content .card:hover {
+  transform: scale(1.15) translateZ(0);
+  background-color: #e9ccee;
+}
+
+.second-page_content .card img {
+  -o-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.second-page_content .card img:hover {
+  -o-transform: rotate(720deg);
+  -ms-transform: rotate(720deg);
+  -moz-transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
+}
+
+/* <!== third-page ========================================================= >  */
+
+#third-page img:hover {
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -o-transform: translate(30px, -32px);
+  -ms-transform: translate(30px, -32px);
+  -moz-transform: translate(30px, -32px);
+  -webkit-transform: translate(30px, -32px);
+  transform: translate(30px, -32px);
+}
+
+/* <!== fourth-page ========================================================= >  */
+
+.fourth-page_content .card:hover {
+  box-shadow: 16px 16px 48px rgba(150, 41, 141, 0.439);
+  background: #fdf2ff;
+}
+
+/* <!== fifth-page ========================================================= >  */
+
+.fifth-page_card-block .card:hover {
+  color: #fdf2ff;
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}
+
+/* <!== sixth-page ========================================================= >  */
+.sixth-page_card-block .card:hover {
+  color: #fdf2ff;
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}
+
+/* <!== eighth-page ========================================================= >  */
+#eighth-page img:hover {
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -o-transform: translate(30px, -32px);
+  -ms-transform: translate(30px, -32px);
+  -moz-transform: translate(30px, -32px);
+  -webkit-transform: translate(30px, -32px);
+  transform: translate(30px, -32px);
+}
